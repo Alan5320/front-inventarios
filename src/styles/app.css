@@ -1,0 +1,48 @@
+:root {
+  --app-bg: #f5f7fb;
+}
+
+body {
+  background: var(--app-bg);
+}
+
+.bg-login {
+  background: radial-gradient(circle at top right, #cfe2ff, #f5f7fb 45%);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.table > :not(caption) > * > * {
+  padding: 0.9rem 0.75rem;
+}
+
+.btn,
+.form-control,
+.form-select {
+  border-radius: 0.7rem;
+}
+
+@media (max-width: 993px) {
+  .btn-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+
+.user-mobile-card {
+  background: #fff;
+}
